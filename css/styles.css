@@ -608,9 +608,12 @@ i {
     }
 
     .main__section__left .container {
+      /* background-color: black; */
       width: 85vw;
-
-      /* height: 100vh;*/
+      position: absolute;
+      top: 19%;
+      left: -5%;
+      /* height: 174%; */
     }
     .projects__cards .card {
       width: 100%;
@@ -632,7 +635,7 @@ i {
     }
     .toggle {
       top: 5%;
-      right: -6%;
+      right: 0%;
     }
 
     .stats__info p {
@@ -641,10 +644,22 @@ i {
       padding: 10px;
     }
 
-    .header {
+    .main__section__left .container .header {
       display: block;
       padding: 20px 50px 0 50px;
       text-align: center;
+    }
+
+    .projects__cards .card .header {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      color: black;
+      display: flex;
+      padding: 22px;
+      justify-content: space-between;
+      font-size: 1rem;
     }
     .sec__header {
       display: block;
@@ -665,6 +680,10 @@ i {
     .view__types {
       float: right;
       padding: 0 20px;
+    }
+
+    .clientImg {
+      width: 100px;
     }
   }
 }
